@@ -1,3 +1,5 @@
+#ifndef LIST_CPP
+#define LIST_CPP
 #include "header.h"
 
 void listBooks(Book* lib, const int size)
@@ -8,3 +10,5 @@ void listBooks(Book* lib, const int size)
         std::cout<<lib[i].title<<" "<<lib[i].author<<" "<<lib[i].isbn<<" "<<lib[i].available<<std::endl;
     }
 }
+
+#endif

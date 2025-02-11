@@ -1,3 +1,5 @@
+#ifndef ADD_CPP
+#define ADD_CPP
 #include "header.h"
 
 void addBook(Book** lib, int* size, int* n) 
@@ -41,3 +43,4 @@ void addBook(Book** lib, int* size, int* n)
     (*lib)[*size].available=1;
     ++(*size);  
 }
+#endif

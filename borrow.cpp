@@ -1,3 +1,5 @@
+#ifndef BORROW_CPP
+#define BORROW_CPP
 #include "header.h"
 
 void borrowBook(Book* lib, const int size, char* index)
@@ -23,3 +25,4 @@ void borrowBook(Book* lib, const int size, char* index)
         std::cout<<"The book is not found"<<std::endl;
     }
 }
+#endif

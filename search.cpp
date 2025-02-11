@@ -1,3 +1,6 @@
+#ifndef SEARCH_CPP
+#define SEARCH_CPP
+
 #include "header.h"
 
 void searchBook(Book* lib, const int size, char* sp)
@@ -17,3 +20,5 @@ void searchBook(Book* lib, const int size, char* sp)
         std::cout<<"The book is not found"<<std::endl;
     }
 }
+
+#endif

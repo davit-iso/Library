@@ -1,3 +1,5 @@
+#ifndef RETURN_CPP
+#define RETURN_CPP
 #include "header.h"
 
 void returnBook(Book* lib, const int size, char* index)
@@ -23,3 +25,5 @@ void returnBook(Book* lib, const int size, char* index)
         std::cout<<"The book is not found"<<std::endl;
     }
 }
+
+#endif
